@@ -1,0 +1,30 @@
+/* estilos comunes para todas las pantallas */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    background-color: #f9fafb;
+    margin: 0;
+}
+
+header {
+    background-color: #1d4ed8;
+    color: white;
+    padding: 12px 16px;
+}
+
+/* el enlace del header en blanco para que se vea sobre el azul */
+header a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a {
+    color: #1d4ed8;
+}
+
+/* pestaña activa de la barra de abajo */
+nav a[aria-current="page"] {
+    font-weight: bold;
+}
